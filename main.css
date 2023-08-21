@@ -1,0 +1,324 @@
+*{
+  box-sizing: border-box;
+  padding: 0;margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+}
+#body{
+  background: #000;
+}
+#titlebar{
+  background-color: #333;
+  margin: 0;padding: 0;
+}
+#titlebar ul{
+  position: sticky;
+  top: 0px;
+  list-style: none;
+  padding: 0;margin: 0;
+}
+#titlebar ul img{
+  opacity: 0.5;
+}
+#titlebar ul img:hover{
+  opacity: 1;
+}
+#titlebar ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 120px;
+}
+#titlebar ul .active{
+  background-color: black;
+}
+#titlebar ul li:hover{
+  background-color: black;
+}
+#titlebar ul li a{
+  text-decoration: none;
+}
+#titlebar ul li a span{
+  font-size: 26px;
+  padding: 10px;
+}
+#s1{
+  text-align: center;
+}
+#s1 div p{
+  font-size: 14px;
+  margin-top: 20px;
+}
+#s1 img{
+  width: 70%;
+  position: relative;
+  right: 60px;
+}
+#page-body #page-inner{
+  padding: 60px 200px;
+}
+@media (max-width:1300px){
+  #page-body #page-inner{
+    padding: 60px 180px;
+  }
+}
+@media (max-width:1200px){
+  #page-body #page-inner{
+    padding: 60px 165px;
+  }
+}
+@media (max-width:1000px){
+  #page-body #page-inner{
+    padding: 60px 140px;
+  }
+  #titlebar ul li a span{
+    font-size: 20px;
+    padding: 10px;
+  }
+  #titlebar ul li h6{
+    font-size: 14px;
+  }
+}
+@media (max-width:900px){
+  #page-body #page-inner{
+    padding: 60px 120px;
+  }
+}
+@media (max-width:850px){
+  #page-body #page-inner h1{
+    padding: 50px 0px 0px;
+  }
+  #titlebar{
+    position: absolute;
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+  }
+  #titlebar ul img{
+    display: none;
+  }
+  #titlebar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 35px;
+  }
+  #titlebar ul li{
+    padding:0 20px !important;
+    height: 65px;
+  }
+  #titlebar ul li h6{
+    font-size: 13px;
+  }
+  #titlebar ul li a span{
+    display: none;
+  }
+}
+@media (max-width:800px){
+  #page-body #page-inner{
+    padding: 60px 80px;
+  }
+}
+@media (max-width:700px){
+  #page-body #page-inner{
+    padding: 60px 50px;
+  }
+}
+@media (max-width:500px){
+  #page-body #page-inner{
+    padding: 60px 20px;
+  }
+  #titlebar ul li{
+    padding:0 10px !important;
+    height: 50px;
+  }
+}
+@media (max-width:300px){
+  #page-body #page-inner{
+    padding: 60px 0px 60px 0px;
+  }
+}
+#title{
+  display: inline-block;
+  padding: 20px 10px 15px 0;
+  border-bottom: 1px solid white;
+  margin-bottom: 18px;
+}
+#s2 p{
+  text-align: justify;
+  color: #777;
+  padding: 5px 10px 15px 0;
+  font-size: 18px;
+}
+#subtitle{
+  margin-bottom: 50px;
+}
+#s3 label{
+  color: #777;
+  margin: 25px 0 10px;
+}
+#s3 div{
+  width: 100%;
+  height: 30px;
+  background-color: white;
+}
+#s3 div div{
+  height: 30px;
+  background-color: rgb(150, 150, 150);
+}
+#s4{
+  margin: 50px 10px;
+}
+#s4 #box1{
+  background-color: white;
+  color: black;
+  padding-top: 20px;
+}
+#s4 #box1 .col-12{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+#s4 #box1 .col-12 p,#s4 #box1 .col-12 p span{
+  color: black;
+  font-size: 16px;
+  text-align: center;
+}
+#s4 #box1 .col-12 p span{
+  font-size: 25px;
+}
+table{
+  width: 100%;
+  text-align: center;
+  opacity: 0.5;
+  margin-bottom: 50px;
+}
+table:hover{
+  opacity: 1;
+}
+table tr{
+  background-color: white;
+  color: black;
+}
+table tr th{
+  color: #ddd;
+  background-color: #555;
+  padding: 35px 0;
+  font-size: 25px;
+}
+table tr td{
+  font-weight: bold;
+  color: #667;
+  padding: 15px 0;
+  font-size: 15px;
+  border-bottom: 1px solid #ddd;
+}
+table tr td span{
+  font-size: 25px;
+  color: #333;
+}
+#table-footer{
+  background-color: #ddd;
+}
+#table-footer td{
+  padding: 25px 0;
+}
+#table-footer td button{
+  border-radius: 0;
+  color: #000;
+}
+#table-footer td button:hover{
+  background-color: #000 !important;
+  color: white;
+}
+#friend{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+  margin: 25px 0;
+}
+#friend:hover{
+  opacity: 1;
+}
+#friend img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+#friend p{
+  display: inline-block;
+  padding:15px 0 0 50px;
+}
+#friend p span{
+  color: #bbb;
+}
+#s7 img{
+ padding: 14px 0;
+ opacity: 0.6;
+}
+#s7 img:hover{
+  opacity: 1;
+}
+#s8 h3{
+  padding-top: 40px;
+  margin-bottom: 25px;
+}
+#s8 ul{
+  list-style: none;
+  padding-left: 10px;
+}
+#s8 ul li{
+  padding: 3px;
+}
+#s8 ul li span{
+  font-size: 18px;
+  padding-right: 40px;
+}
+#s8 ul li span a{
+  text-decoration: none;
+  color: #777;
+}
+#s9 p{
+  color: #777;
+  padding: 15px 0;
+}
+#s9 input{
+  border-radius: 0;
+  padding: 10px;
+  margin: 15px 0;
+  height: 60px;
+}
+#s9 textarea{
+  max-height: 300px;
+	min-height: 200px;
+  border-radius: 0;
+  padding: 10px;
+}
+#s9 button{
+  background-color: white;
+  margin: 15px 0;
+  height: 50px;
+  border-radius: 0;
+  padding: 0 30px;
+}
+#s9 button:hover{
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+#s10 span{
+  font-size: 23px;
+  padding-left: 5px;
+  color: #777;
+}
+#s10 span:hover{
+  color: white;
+}
+#s10 p{
+  color: #777;
+}
