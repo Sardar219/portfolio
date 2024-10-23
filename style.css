@@ -1,0 +1,324 @@
+/* ------ General style  ------ */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins Light, sans-serif;
+  color: white;
+}
+/* ------ body style  ------ */
+body {
+  background: #000;
+}
+/* ------ navbar style  ------ */
+#titlebar {
+  background-color: #333;
+  padding: 0;
+}
+#titlebar .sticky {
+  position: sticky;
+  top: 0px;
+  padding: 0;
+  margin: 0;
+}
+#titlebar img {
+  opacity: 0.5;
+}
+#titlebar img:hover {
+  opacity: 1;
+}
+#titlebar a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 120px;
+  text-decoration: none;
+}
+.activebar {
+  background-color: black;
+}
+#titlebar a:hover {
+  background-color: black;
+}
+#titlebar a span {
+  font-size: 26px;
+  padding: 10px;
+}
+/* ------ body style  ------ */
+#page-body #page-inner {
+  padding: 60px 10%;
+}
+#page-body {
+  background-color: #000;
+}
+/* ------ #sectionTop  ------ */
+#sectionTop {
+  background-color: #333333e6;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  backdrop-filter: blur(7px);
+}
+#sectionTop a {
+  font-family: Poppins SemiBold;
+  text-decoration: none;
+  color: white;
+  height: inherit;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+#sectionTop a:hover {
+  background-color: black;
+}
+/* ------ #section1 My self  ------ */
+#section1 {
+  text-align: center;
+}
+#section1 div {
+  margin-bottom: 50px;
+}
+#section1 div h1 {
+  font-family: Poppins Black;
+  letter-spacing: 2px;
+}
+#section1 div p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+#section1 img {
+  width: 70%;
+  position: relative;
+  right: 60px;
+}
+/* ------ Title  ------ */
+#title {
+  display: inline-block;
+  padding: 20px 10px 15px 0;
+  border-bottom: 1px solid white;
+  margin-bottom: 18px;
+  font-family: Poppins SemiBold;
+}
+/* ------ Subtitle  ------ */
+#subtitle {
+  margin-bottom: 30px;
+  font-family: Poppins SemiBold;
+}
+/* ------ #Section2  ------ */
+#section2 {
+  margin-bottom: 100px;
+}
+#section2 p {
+  text-align: justify;
+  color: #777;
+  padding: 5px 10px 15px 0;
+  font-size: 18px;
+}
+/* ------ #Section3  ------ */
+#section3 label {
+  color: #777;
+  margin: 25px 0 10px;
+}
+#section3 div {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  overflow: hidden;
+}
+#section3 div div {
+  height: 30px;
+  background-color: rgb(150, 150, 150);
+}
+/* ------ #Section4  ------ */
+#section4 {
+  margin: 50px 10px;
+}
+#section4 #box1 {
+  background-color: white;
+  color: black;
+  padding-top: 20px;
+}
+#section4 #box1 .col-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+#section4 #box1 .col-12 p,
+#section4 #box1 .col-12 p span {
+  color: black;
+  font-size: 16px;
+  text-align: center;
+}
+#section4 #box1 .col-12 p span {
+  font-size: 25px;
+}
+/* ------ #Section5  ------ */
+table {
+  width: 100%;
+  text-align: center;
+  opacity: 0.5;
+  margin-bottom: 50px;
+}
+table:hover {
+  opacity: 1;
+}
+table tr {
+  background-color: white;
+  color: black;
+}
+table tr th {
+  color: #ddd;
+  background-color: #555;
+  padding: 35px 0;
+  font-size: 25px;
+}
+table tr td {
+  font-weight: bold;
+  color: #667;
+  padding: 15px 0;
+  font-size: 15px;
+  border-bottom: 1px solid #ddd;
+}
+table tr td span {
+  font-size: 25px;
+  color: #333;
+}
+#table-footer {
+  background-color: #ddd;
+}
+#table-footer td {
+  padding: 25px 0;
+}
+#table-footer td button {
+  border-radius: 0;
+  color: #000;
+}
+#table-footer td button:hover {
+  background-color: #000 !important;
+  color: white;
+}
+/* ------ #Section6  ------ */
+#section6 {
+  margin-bottom: 100px;
+}
+#friend {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+  margin: 25px 0;
+}
+#friend:hover {
+  opacity: 1;
+}
+#friend img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+#friend p {
+  display: inline-block;
+  padding: 15px 0 0 50px;
+}
+#friend p span {
+  color: #bbb;
+}
+/* ------ #Section7 ------ */
+#section7 img {
+  padding: 14px 0;
+  opacity: 0.6;
+}
+#section7 img:hover {
+  opacity: 1;
+}
+/* ------ #Section8 ------ */
+#section8 h3 {
+  padding-top: 40px;
+  margin-bottom: 25px;
+}
+#section8 ul {
+  list-style: none;
+  padding-left: 10px;
+}
+#section8 ul li {
+  padding: 3px;
+}
+#section8 ul li span {
+  font-size: 18px;
+  padding-right: 40px;
+}
+#section8 ul li span a {
+  text-decoration: none;
+  color: #777;
+}
+/* ------ #Section9  ------ */
+#section9 p {
+  color: #777;
+  padding: 15px 0;
+}
+#section9 input {
+  border-radius: 0;
+  padding: 10px;
+  margin: 15px 0;
+  height: 60px;
+}
+#section9 textarea {
+  max-height: 300px;
+  min-height: 200px;
+  border-radius: 0;
+  padding: 10px;
+}
+#section9 button {
+  background-color: white;
+  margin: 15px 0;
+  height: 50px;
+  border-radius: 0;
+  padding: 0 30px;
+}
+#section9 button:hover {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+/* ------ #Section10 ------ */
+#section10 {
+  margin: 100px 0 50px;
+}
+#section10 span {
+  font-size: 23px;
+  padding-left: 5px;
+  color: #777;
+}
+#section10 span:hover {
+  color: white;
+}
+#section10 p {
+  color: #777;
+}
+@media (max-width: 1000px) {
+  #titlebar a span {
+    font-size: 20px;
+    padding: 10px;
+  }
+  #titlebar h6 {
+    font-size: 14px;
+  }
+}
+.hidden {
+  display: none !important;
+}
+@media (max-width: 800px) {
+  #section7,
+  #section8,
+  #section2 {
+    padding-top: 50px;
+  }
+}
